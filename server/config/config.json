@@ -1,11 +1,11 @@
 {
   "development": {
     "username": "root",
-    "password": "1234",
+    "password": "!Qortmdcks95",
     "database": "fubao",
     "host": "svc.sel4.cloudtype.app",
     "dialect": "mysql",
-    "port" : 32163
+    "port" : 31166
   },
   "test": {
     "username": "root",
