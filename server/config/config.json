@@ -5,7 +5,7 @@
     "database": "fubao",
     "host": "svc.sel4.cloudtype.app",
     "dialect": "mysql",
-    "port" : 31166
+    "port" : 31642
   },
   "test": {
     "username": "root",
