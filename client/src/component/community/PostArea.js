@@ -14,7 +14,7 @@ export default function PostArea() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get(`http://localhost:8000/community/detail/${postNum}`);
+        const response = await axios.get(`https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/community/detail/${postNum}`);
         setPostInfo(response.data.data);
         setFlag(true);
       } catch (err) {

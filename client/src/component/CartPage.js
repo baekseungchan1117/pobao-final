@@ -37,7 +37,7 @@ export default function CartPage(props) {
   useEffect(() => {
     axios({
       method: "GET",
-      url: `http://localhost:8000/shop/detail/:id`,
+      url: `https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/shop/detail/:id`,
     }).then(() => {
       console.log("상품 세부 열기");
     });

@@ -12,7 +12,7 @@ export default function ImageUpload(props) {
       formData.append('file', file);
       console.log(file);
 
-      const response = await axios.post('http://localhost:8000/community/lounge/image/upload', formData);
+      const response = await axios.post('https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/community/lounge/image/upload', formData);
       console.log(response);
       setFlag(true);
       setImage(response.data.filePath);

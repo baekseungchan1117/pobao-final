@@ -7,7 +7,7 @@ import axios from "axios";
       // navigate("/shop/detail/" + props.goods.id);
       axios({
         method: "GET",
-        url: `http://localhost:8000/shop/detail/:id`,
+        url: `https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/shop/detail/:id`,
         data: props.goods.id,
       }).then(() => {
         navigate(`detail/` + props.goods.id);

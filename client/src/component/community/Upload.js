@@ -44,7 +44,7 @@ export default function Upload() {
     console.log('body title content img입니다', body);
 
     axios
-      .post('http://localhost:8000/community/lounge', body)
+      .post('https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/community/lounge', body)
       .then((response) => {
           alert('작성 성공');
           window.location.reload();

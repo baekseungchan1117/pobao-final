@@ -161,7 +161,7 @@ const RankingImage = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/community/detail/rankingimage');
+        const response = await axios.get('https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/community/detail/rankingimage');
         setPostInfo(response.data.data);
         setFlag(true);
       } catch (err) {

@@ -9,7 +9,7 @@ export default function RepleList(props) {
   const { postNum } = useParams();
 
   useEffect(() => {
-    axios.get(`http://localhost:8000/reple/getReple/${postNum}`).then((response) => {
+    axios.get(`https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/reple/getReple/${postNum}`).then((response) => {
       if (response.data.success) {
         setRepleList([...response.data.data]);
       }

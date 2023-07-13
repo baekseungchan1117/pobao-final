@@ -14,7 +14,7 @@ export default function Detail(props) {
     if (window.confirm("정말로 삭제하시겠습니까?")) {
       const fetchData = async () => {
         try {
-          const response = await axios.delete(`http://localhost:8000/community/lounge/${postNum}`);
+          const response = await axios.delete(`https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/community/lounge/${postNum}`);
           if (response.status === 200) {
             alert("게시글이 삭제되었습니다.");
             navigate('/community');

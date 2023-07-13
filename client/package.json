@@ -2,7 +2,7 @@
   "name": "client",
   "version": "0.1.0",
   "private": true,
-  "propxy": "http://localhost:8000/",
+  "propxy": "https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app",
   "dependencies": {
     "@emotion/css": "^11.11.2",
     "@emotion/react": "^11.11.1",

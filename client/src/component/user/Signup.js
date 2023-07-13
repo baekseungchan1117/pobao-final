@@ -55,7 +55,7 @@ export default function Signup() {
     // console.log(user);
     axios({
       method: "POST",
-      url: `http://localhost:8000/user/signup`,
+      url: `https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/user/signup`,
       data: user,
     }).then((res) => {
       console.log(res.data.result);

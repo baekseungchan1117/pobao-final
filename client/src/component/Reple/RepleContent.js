@@ -22,7 +22,7 @@ export default function RepleContent(props) {
             reple: Reple
         }
 
-        axios.post("http://localhost:8000/reple/edit" , body).then((response) => {
+        axios.post("https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/reple/edit" , body).then((response) => {
             if(response.data.result){
                 alert("댓글 수정이 성공하였습니다.")
             } else {
@@ -41,7 +41,7 @@ export default function RepleContent(props) {
                 nickname: user.nickname
             }
     
-            axios.post("http://localhost:8000/reple/delete" , body).then((response) => {
+            axios.post("https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/reple/delete" , body).then((response) => {
                 if(response.data.result){
                     alert("댓글이 삭제 되었습니다.")
                 } 

@@ -22,7 +22,7 @@ export default function Edit() {
           let body = {
             postNum: params.postNum
           };
-          const response = await axios.patch(`http://localhost:8000/community/lounge/${params.postNum}`, body);
+          const response = await axios.patch(`https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/community/lounge/${params.postNum}`, body);
           console.log(response);
           if (response.data.success) {
             setPostInfo(response.data.data);
@@ -53,7 +53,7 @@ export default function Edit() {
         postNum: params.postNum
       };
   
-      axios.patch(`http://localhost:8000/community/lounge/${params.postNum}`, body)
+      axios.patch(`https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/community/lounge/${params.postNum}`, body)
         .then((response) => {
           if (response.status === 200) {
             alert("글 수정이 완료되었습니다.");

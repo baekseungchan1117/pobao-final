@@ -53,7 +53,7 @@ export default function ListMainPage() {
   const getPostList = () => {
     const fetchData = async () => {
       try {
-        const response = await axios.get('http://localhost:8000/community', {
+        const response = await axios.get('https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/community', {
           params: { 
             sort: sort,
             searchtitle: searchTitle

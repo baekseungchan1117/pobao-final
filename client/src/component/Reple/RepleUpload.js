@@ -27,7 +27,7 @@ export default function RepleUpload(props) {
 
      console.log("11111", body.detailnum)
 
-    axios.post('http://localhost:8000/reple/submit', body).then((response) => {
+    axios.post('https://port-0-pobao-final-kvmh2mlk0fjuq5.sel4.cloudtype.app/reple/submit', body).then((response) => {
       console.log("res", response)
       if (response.data.success) {
         alert("댓글 작성 완료");
